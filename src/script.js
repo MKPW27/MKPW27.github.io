@@ -1,14 +1,13 @@
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-        console.log(entry);
-        if (entry.isIntersecting){
+        if (entry.isIntersecting) {
             entry.target.classList.add('show');
         }
     });
-}); 
+});
 
-const hiddenElements = document.querySelectorAll('.hidden'); 
-hiddenElements.forEach((el) => observer.observe(el)); 
+const hiddenElements = document.querySelectorAll('.hidden, .list'); 
+hiddenElements.forEach((e) => observer.observe(e)); 
 
 // const nav = document.querySelector("nav")
 // let lastSrollY = window.scrollY
