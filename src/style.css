@@ -18,13 +18,11 @@ body {
 
 
 nav {
-    padding: 10px 10%;
-    padding-right: 10%;
+
     display: flex;
     position: fixed;
     width: 100vw;
     background-color: #FFFCF2;
-    display: flex;
     justify-content: space-between;
 }
 
