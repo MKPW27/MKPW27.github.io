@@ -18,11 +18,9 @@ body {
 
 
 nav {
-    padding: 10px 10%;
-    padding-right: 10%;
     display: flex;
     position: fixed;
-    top: 0;
+    top: 0; 
     width: 100vw;
     background-color: #FFFCF2;
     align-items: center;
@@ -32,6 +30,7 @@ nav {
 nav img {
     width: 150px;
     height: auto;
+    margin: 10px 13rem;
 }
 
 nav ul li {
@@ -70,6 +69,7 @@ button {
     border: none;
     border-radius: 50px;
     font-size: 17px;
+    margin: 10px 13rem;
     
 }
 
@@ -81,6 +81,7 @@ nav button:hover {
     font-size: 17px;
 }
 
+/* 
 @media (max-width: 65em) {
     nav{
         position: fixed;
@@ -113,10 +114,10 @@ nav button:hover {
         font-size: 17px;
     }
     
-}
+} */
 
 #home {
-    padding: 10px 10%;
+    padding: 10px 13rem;
     width: 100%;
     height: 100vh;
     background-position: center;
