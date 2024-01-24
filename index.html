@@ -3,49 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="logo.svg">
+  <title>MKPW27</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/src/charc.css">
+  <link rel="icon" href="/src/images/logo.svg">
+  <script defer src="/src/script.js"></script>
 </head>
+
 <body>
-  <div id="header">
-    <div class="container">
-      <nav>
-        <a href="#home">
-          <img src="images/logo.svg" class="logo">
-        </a>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#interests">Interests</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#achivements">Achivements</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <a href="#home" class="nav-link">
+        <img src="/src/images/logo.svg" class="logo">
+      </a>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#interests" class="nav-link" >Interests</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achivements" class="nav-link">Achivements</a></li>
+      </ul>
+      <a href="#contact"><button>Contacts</button></a>
+    </nav>
+
+  <div id="home">
+    <div>
       <div class="header-text">
-        <p>Welcome To My First Website!
-        <h1>Hi, I'm <span>MKPW27</span><br>Stuying Computer Science</h1>
+        <p>Welcome To My First Website!</p>
+        <h1 class="hidden">Hi, I'm <span>MKPW27</span></h1>
+        <h1 class="hidden">Stuying Computer Science</h1>
       </div>
     </div>
   </div>
 
+
   <div id="about">
-    <div class="container">
-      <div class="row">
-        <div class="about-1">
-          <img src="/images/ImgSchool.jpg">
+    <div class="wrapper">
+      <div class="border-circle" id="one"></div>
+      <div class="border-circle" id="two"></div>
+      <div class="background-circle">
+        <div class="triangle-light"></div>
+        <div class="body"></div>
+        <span class="shirt-text">M</span>
+        <div class="triangle-dark"></div>
+      </div>
+      <div class="head">
+        <div class="ear" id="left"></div>
+        <div class="ear" id="right"></div>
+        <div class="hair-main">
+          <div class="sideburn" id="left"></div>
+          <div class="sideburn" id="right"></div>
+          <div class="hair-top"></div>
         </div>
-        <div class="about-2">
-          <h1 class="subtitle">About Me</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis necessitatibus in illum optio repellat ex harum molestiae, hic cumque, recusandae eaque illo nesciunt a voluptatum, excepturi iste labore perferendis facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ducimus, voluptatum quisquam fugit molestiae ex perferendis mollitia quaerat, non facilis minima quasi est, sit perspiciatis a ratione voluptatibus amet praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, doloribus hic? Officiis, temporibus. Assumenda excepturi possimus quis delectus quo molestiae. Mollitia ullam quo amet doloribus et consequuntur accusantium, accusamus magni?</p>
-          <div class="tabtitles">
-              <p class="tablinks"></p>
-              <p class="tablinks"></p>
-              <p class="tablinks"></p>
+        <div class="face">
+          <div class="hair-bottom"></div>
+          <div class="nose"></div>
+          <div class="eye-shadow" id="left">
+            <div class="eyebrow"></div>
+            <div class="eye"></div>
+          </div>
+          <div class="eye-shadow" id="right">
+            <div class="eyebrow"></div>
+            <div class="eye"></div>
+          </div>
+          <div class="mouth"></div>
+          <div class="shadow-wrapper">
+            <div class="shadow"></div>
           </div>
         </div>
       </div>
+      <span class="music-note" id="one">&#9835;</span>
+      <span class="music-note" id="two">&#9834;</span>
     </div>
+    <hgroup class="speech-bubble">
+      <div class="about-text">
+        <p><strong>Hello I'm MKPW27 Im current studying at Mapúa Malayan Colleges Laguna</strong></p>
+        <p>I'm here tp talk a little about myself, currently I'm 21, Like playing open-world type games, and Love reading/watching anime/manga, TV shows, and the like.</p>
+        <p>Project-wise I'm currently into exploring VPS, VPNs, and homelabs/self-hosting, my mind keeps pulling me to work on them.</p>
+      </div>
+    </hgroup>
   </div>
 </body>
 </html>
