@@ -8,7 +8,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden, .list, .speech-bubble, .wrapper, .project-card');
+const hiddenElements = document.querySelectorAll('.hidden, .list, .speech-bubble, .wrapper, .project-card, .achievements-container');
 hiddenElements.forEach((e) => {
     observer.observe(e);
     e.classList.remove('show');
