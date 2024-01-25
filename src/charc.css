@@ -16,8 +16,8 @@
     -moz-mask-image: -webkit-radial-gradient(#BADA55, #BADA55);
     -o-mask-image: -webkit-radial-gradient(#BADA55, #BADA55);
     -ms-mask-image: -webkit-radial-gradient(#BADA55, #BADA55);
-    animation:grow 0.7s 1 ease;
-    -webkit-animation:grow 0.7s 1 ease;
+    animation:grow 0 ;
+    -webkit-animation:grow 0 ;
     transform-origin: center;
     }
     .border-circle{

@@ -12,11 +12,11 @@
 
 <body>
   <nav>
-    <a href="#home" class="nav-link">
+    <a href="#" class="nav-link">
       <img src="/src/images/logo.svg" class="logo">
     </a>
     <ul>
-      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link">Home</a></li>
       <li><a href="#about" class="nav-link">About</a></li>
       <li><a href="#interests" class="nav-link" >Interests</a></li>
       <li><a href="#projects" class="nav-link">Projects</a></li>
@@ -119,8 +119,155 @@
   </div>
 
   <div id="projects">
-    <h1>projects</h1>
+    <div class="project-container">
+
+        <a href="#popup1">
+            <div class="project-card">
+                <div class="content" >
+                    <p class="date">2024</p>
+                    <p class="title">First Website</p>
+                </div>
+                <img src="src/images/firstwebsite.jpeg">
+            </div>
+        </a>
+
+        <a href="#popup2">
+            <div class="project-card">
+                <div class="content">
+                    <p class="date">2023</p>
+                    <p class="title">Homelab CasaOs</p>
+                </div>
+                <img src="/src/images/Casaos.jpeg"/>
+            </div>
+        </a>
+
+        <a href="#popup3">
+          <div class="project-card">
+              <div class="content">
+                  <p class="date">2023</p>
+                  <p class="title">Minecraft Server</p>
+              </div>
+              <img src="/src/images/Minecraft.jpeg"/>
+          </div>
+      </a>
+
+
+      <a href="#popup4">
+        <div class="project-card">
+            <div class="content">
+                <p class="date">2023</p>
+                <p class="title">Reverse Proxy </p>
+            </div>
+            <img src= "/src/images/proxy.jpeg"/>
+          </div>
+      </a>
+
+      <a href="#popup5">
+        <div class="project-card">
+            <div class="content">
+                <p class="date">2023</p>
+                <p class="title">Second Keyboard Macros</p>
+            </div>
+            <img src="/src/images/ahk.jpeg"/>
+        </div>
+      </a>
+
+      <a href="#popup6">
+        <div class="project-card">
+            <div class="content">
+                <p class="date">2022</p>
+                <p class="title">Nas Server</p>
+            </div>
+            <img src="/src/images/server.jpeg"/>
+        </div>
+      </a>
+
+
+    </div>
+</div>
+
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>My First Website</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content">
+            <p>Surprise! This is my first website. Currently, it's a project I'm working on for my Web Systems and Technology Laboratory.</p>
+        </div>
+        <img src="/src/images/firstwebsite.jpeg">
+    </div>
   </div>
+</div>
+
+<div id="popup2" class="overlay">
+  <div class="popup">
+    <h2>HomeLab CasaOs</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content">
+            <p>
+              CasaOS, an open-source application by IceWhale, is a versatile Docker image capable of managing and creating other Docker images. It has become my preferred Docker manager for fulfilling my homelab requirements, providing a seamless and efficient solution for my setup needs.</p>
+        </div>
+        <img src="/src/images/Casaos.jpeg" >
+    </div>
+  </div>
+</div>
+
+
+<div id="popup3" class="overlay">
+  <div class="popup">
+    <h2>Minecraft Server</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content">
+            <p>Minecraft holds a special place as one of my favorite games. In fact, I'm so fond of it that I've taken the initiative to set up my own Minecraft server using CasaOS.</p>
+        </div>
+        <img src="/src/images/Minecraft.jpeg" >
+    </div>
+  </div>
+</div>
+
+<div id="popup4" class="overlay">
+  <div class="popup">
+    <h2>Minecraft Server</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content">
+            <p>I've delved into reverse proxying for my Minecraft server and other self-hosted projects within CasaOS. Exploring various methods, I've successfully implemented it using platforms like playit.gg, Cloudflare Zero Trust, and ngrok. These diverse approaches have added flexibility and security to my setup.</p>
+        </div>
+        <img src="/src/images/proxy.jpeg" >
+    </div>
+  </div>
+</div>
+
+<div id="popup5" class="overlay">
+  <div class="popup">
+    <h2>Minecraft Server</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content">
+            <p>Given my extensive time playing Minecraft, I've accumulated numerous keybinds that can be cumbersome. To streamline this, I've created a secondary keyboard macro. This innovative approach allows me to generate macros on a separate keyboard, utilizing an open-source AHK listener combined with my custom AHK code. It's proven to be an efficient and personalized solution to enhance my gaming experience.</p>
+        </div>
+        <img src="/src/images/ahk.jpeg" >
+    </div>
+  </div>
+</div>
+
+<div id="popup6" class="overlay">
+  <div class="popup">
+    <h2>Minecraft Server</h2>
+      <a class="close" href="#projects">&times;</a>
+      <div class="popup-container">
+        <div class="content">
+            <p>I manage a substantial number of files, and to facilitate seamless access, I've repurposed some of my old laptops to create simple Samba servers. These servers are accessible through Tailscale, leveraging its mesh network features for secure and efficient connectivity. This setup ensures convenient file management across my devices.</p>
+        </div>
+        <img src="/src/images/proxy.jpeg" >
+    </div>
+  </div>
+</div>
+
+
 
   <div id="achivements">
     <h1>achivements</h1>
