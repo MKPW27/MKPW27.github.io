@@ -30,16 +30,4 @@ jQuery(function() {
     });
   });
 
-// const nav = document.querySelector("nav")
-// let lastSrollY = window.scrollY
-
-// window.addEventListener("scroll", () =>{
-//     if (lastSrollY < window.screenY){
-//         console.log(1);
-//     } 
-//     else {
-//         console.log(2);
-
-//     }   
-//     lastSrollY = window.scrollY;
-// });
+  
